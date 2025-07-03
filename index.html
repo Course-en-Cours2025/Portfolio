@@ -1,13 +1,13 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio | Matheo</title>
+  <title>Portfolio | Zyte10</title>
   <link rel="shortcut icon" href="./assets/img/image_2025-05-02_211912367-removebg-preview.png">
+  
   <style>
-    /* ----------- BASE ----------- */
+    
     * {
       margin: 0;
       padding: 0;
@@ -62,7 +62,6 @@
       color: #aaa;
     }
 
-    /* ----------- ANIMATIONS ----------- */
     .fade-in {
       opacity: 0;
       transform: translateY(20px);
@@ -74,14 +73,12 @@
       transform: translateY(0);
     }
 
-    /* ----------- RESPONSIVE ----------- */
     @media (max-width: 600px) {
       header, section, footer {
         margin: 20px 10px;
       }
     }
 
-    /* ----------- TYPING EFFECT ----------- */
     .typing {
       font-weight: bold;
       white-space: nowrap;
@@ -124,52 +121,54 @@
 }
 
   </style>
+  
 </head>
-<body>
+
+  <body>
 
   <header>
-    <h1 class="typing">Bonjour, je suis Matheo
-     <br><span class="badge-learning">🚀 En apprentissage</span>
+    <h1 class="typing">Hello, i'm Zyte10
+     <br><span class="badge-learning">🚀 In learning</span>
     </h1>
-    <p>Jeune lycéen passionné par le code.</p>
+    <p>Young high school student passionate about coding.</p>
   </header>
 
   <section id="about" class="fade-in">
-    <h2>À propos de moi</h2>
-    <p>Je suis un étudiant en pleine découverte du développement web ainsi que plein d'autre languages de programmation. Même si je ne maîtrise pas encore totalement le CSS et le JavaScript, j'apprends tous les jours avec passion.</p>
-    <p>Merci de ta visite !</p>
+    <h2>About me</h2>
+    <p>I'm a student discovering web development and many other programming languages. Even if I haven't yet fully mastered CSS and JavaScript, I'm learning every day with passion.</p>
+    <p>Thanks for your visit !</p>
   </section>
 
   <section id="projects" class="fade-in">
-    <h2>Mes projets</h2>
+    <h2>My projects</h2>
     <ul>
       <li>
-        <strong>Projet 1 :</strong> Site vitrine pour un concours scolaire.
+        <strong>#1 :</strong> Showcase site for a school competition.
         <br>
-        <a href="https://course-en-cours2025.github.io" target="_blank">Course en Cours 2025</a> ( premier projet )
+        <a href="https://course-en-cours2025.github.io" target="_blank">Course en Cours 2025</a> ( first project, in FR bc i'm french )
       </li>
       <li>
-        <strong>Projet 2 :</strong> Site de Présentation/Shop pour un jeux roblox.
+        <strong>#2 :</strong> E-commerce website for a roblox game.
         <br>
-        <a href="https://imgur.com/y9wfzsL" target="_blank">Streetz Break</a> ( deuxieme projet + ajout de Js )
+        <a href="https://imgur.com/y9wfzsL" target="_blank">Streetz Break</a> ( second project, also in FR )
       </li>
     </ul>
   </section>
 
   <section id="contact" class="fade-in">
     <h2>Contact</h2>
-    <p>Tu peux me contacter sur discord ou sur mon Fiverr : 
-      <p>💬 Discord : <strong>mceszizi</strong><br><small style="color: #888;">(oui, le pseudo peut surprendre, mais je suis très sérieux dans mon travail 😄)</small></p>
+    <p>You can contact me on discord or on my Fiverr : 
+      <p>💬 Discord : <strong>mceszizi</strong><br><small style="color: #888;">(yes, the nickname may come as a surprise, but I'm very serious about my work 😄)</small></p>
         <p><img src="./assets/img/fiverr-icon.svg" height="20" alt="Fiverr logo"> <a href="https://fr.fiverr.com/zyte83/buying" target="_blank"> Fiverr</a></p>
     </p>
   </section>
 
   <footer>
-    <p>© 2025 Matheo Dev-Lyceen | Portfolio personnel</p>
+    <p>© 2025 Zyte10 Dev-Lyceen | Personal portfolio</p>
   </footer>
 
   <script>
-    // Apparition des sections au scroll
+    
     const fadeElements = document.querySelectorAll('.fade-in');
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -180,7 +179,9 @@
     }, { threshold: 0.3 });
 
     fadeElements.forEach(el => observer.observe(el));
+ 
   </script>
 
 </body>
+  
 </html>
